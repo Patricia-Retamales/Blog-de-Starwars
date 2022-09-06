@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container{
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.row{
+  background-color: rgb(3, 3, 3);
 }
+
+h6{
+  color: black;
+  
+}
+
+
+h2{
+  color: white;
+  background-color: black;
+}
+
+.containerdetalle{
+  background-color: black;
+  padding: 30px;
+}
+
+.containerdetallePlanets{
+  background-color: black;
+  padding: 30px;
+  height:'38rem'
+}
+
+
+
+
+
