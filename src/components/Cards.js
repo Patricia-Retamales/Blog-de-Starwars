@@ -27,8 +27,8 @@ function Cards(props) {
                 return (
                     <div key={index} className="col-sm-5 col-md-6 col-lg-4 my-3">
 
-                        <Card className='cards' style={{ width: '18rem' , borderRadius:'15px', backgroundColor:'azure', height:'130px'}}>
-                            <Card.Img variant="top" src="" />
+                        <Card className='cards' style={{ width: '18rem' , borderRadius:'15px', backgroundColor:'azure', height:'300px'}}>
+                            <Card.Img variant="top" src="https://wallpaperaccess.com/full/368503.jpg" />
                             <Card.Body>
                                 <Card.Title>{personaje.name}</Card.Title>
                                 <Card.Text>
