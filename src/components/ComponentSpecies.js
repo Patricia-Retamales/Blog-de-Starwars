@@ -26,6 +26,7 @@ function ComponetSpecies(props) {
                 return (
                     <div key={index} className="col-sm-9 col-md-9 col-lg-4 my-3">
                         <Card style={{ width: '18rem' , borderRadius:'15px', backgroundColor:'azure', height:'130px'}}>
+                            <Card.Img variant="top" src="https://i.pinimg.com/736x/04/1e/95/041e958a4d05b46d3c59f034ab517822.jpg" />
                             <Card.Img variant="top" src="" />
                             <Card.Body>
                                 <Card.Title>{specie.name}</Card.Title>
