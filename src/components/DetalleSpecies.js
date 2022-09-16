@@ -14,9 +14,9 @@ function DetalleSpecies() {
     console.log("DetalleSpecies", store);
     return (
         
-        <div className='containerdetalle' style={{height:'38rem'}}>
+        <div className='containerdetalle' style={{height:'50rem'}}>
             <Card style={{  width: '20rem', marginLeft: '40%', backgroundColor: 'azure', padding: '10px', }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://wallpaperaccess.com/full/368503.jpg" />
                 <Card.Body>
                      <Card.Title>
                           <h1>{store.detalleSpecie.properties.name}</h1>  

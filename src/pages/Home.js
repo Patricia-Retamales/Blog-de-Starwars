@@ -6,7 +6,7 @@ import NavbarComponent from '../components/Navbar';
 import ComponentPlanets from "../components/componetplanets";
 import ComponetSpecies from '../components/ComponentSpecies';
 import ComponetVehicles from '../components/ComponentVehicles';
-
+import CarouselComponet from '../components/CaruselComponet';
 const Home = () => {
   //using flux
   const { store, actions } = useContext(Context);
@@ -22,6 +22,7 @@ const Home = () => {
   return (
     <>
       <NavbarComponent />
+      <CarouselComponet/>
       <Container fluid>
         <h2>Character</h2>
         <Cards personajes={store.personajes} />

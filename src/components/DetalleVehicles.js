@@ -13,9 +13,9 @@ function DetalleVehicles() {
     }, [])
     console.log("DetalleVehicles", store);
     return (
-        <div className='containerdetalle' style={{height:'38rem'}}>
+        <div className='containerdetalle' style={{height:'50rem'}}>
             <Card style={{ width: '20rem', marginLeft: '40%', backgroundColor: 'azure', padding: '10px',  }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src="https://i.pinimg.com/736x/44/0a/f5/440af5d1d461816e7a1e2601ee28b223--star-wars-wallpaper-mac-wallpaper.jpg" />
                 <Card.Body>
                     <Card.Title>
                          <h1>{store.detalleVehicle.properties.name}</h1>  

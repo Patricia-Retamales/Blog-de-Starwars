@@ -14,9 +14,9 @@ function DetallePersonaje() {
     console.log("DetallePersonaje", store);
     return (
 
-        <div className='containerdetalle' style={{ height: '38rem' }}>
+        <div className='containerdetalle' style={{ height: '50rem' }}>
             <Card style={{ width: '20rem', marginLeft: '40%', backgroundColor: 'azure', padding: '10px', }}>
-
+            <Card.Img variant="top" src="https://i.pinimg.com/736x/2f/7a/5c/2f7a5c384f358c66d3f883778fdfbc6b--star-wars-iii-star-wars-saga.jpg" />
                 <Card.Body>
                     <Card.Title>
                         <h1>{store.detalle.properties.name}</h1> 

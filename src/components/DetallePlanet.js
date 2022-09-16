@@ -16,9 +16,9 @@ function DetallePlanet() {
 
     return (
 
-        <di className='containerdetallePlanets' >
+        <di className='containerdetallePlanets'style={{height:'50rem'}} >
             <Card style={{ width: '20rem', marginLeft: '40%', backgroundColor: 'azure', padding: '10px', }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src="https://c4.wallpaperflare.com/wallpaper/1005/822/563/night-sky-death-star-at-at-space-wallpaper-thumb.jpg" />
                 <Card.Body>
                     <Card.Title>
                          <h1>{store.detallePlanet.properties.name}</h1>   

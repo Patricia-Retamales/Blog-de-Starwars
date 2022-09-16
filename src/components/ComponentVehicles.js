@@ -25,8 +25,8 @@ function ComponetVehicles(props) {
             {props.vehicles.map((vehicle, index) => {
                 return (
                     <div key={index} className="col-sm-9 col-md-9 col-lg-4 my-3">
-                        <Card style={{ width: '18rem' , borderRadius:'15px', backgroundColor:'azure', height:'130px'}}>
-                            <Card.Img variant="top" src="" />
+                        <Card style={{ width: '18rem' , borderRadius:'15px', backgroundColor:'azure', height:'300px'}}>
+                            <Card.Img variant="top" src="https://p4.wallpaperbetter.com/wallpaper/158/440/921/star-wars-at-st-vehicle-science-fiction-wallpaper-preview.jpg" />
                             <Card.Body>
                                 <Card.Title>{vehicle.name}</Card.Title>
                                 <Card.Text>
