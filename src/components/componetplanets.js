@@ -27,7 +27,7 @@ function ComponetPlanets(props) {
                     <div key={index} className="col-sm-9 col-md-9 col-lg-4 my-3">
 
 
-                        <Card style={{ width: '18rem' , borderRadius:'15px', backgroundColor:'azure', height:'300px'}}>
+                        <Card style={{ width: '18rem' , borderRadius:'16px', backgroundColor:'azure', height:'300px'}}>
                            <Card.Img variant="top" src="https://c4.wallpaperflare.com/wallpaper/795/813/145/star-wars-planet-moon-battle-space-art-wallpaper-preview.jpg" />
                             <Card.Body>
                                 <Card.Title>{planet.name}</Card.Title>
